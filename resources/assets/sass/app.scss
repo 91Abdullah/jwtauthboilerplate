@@ -7,3 +7,19 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+#auth-view {
+    h1 {
+        text-align: center;
+    }
+}
+
+#main-body {
+    .glyphicon-heart {
+        color: red;
+    }
+
+    .made-with {
+        font-weight: bold;
+    }
+}

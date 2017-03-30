@@ -2,6 +2,7 @@
 
 <div class="col-sm-6 col-sm-offset-3">
     <div class="well">
+        <h5 ng-if="authenticated">Welcome, {{ currentUser.name }}</h5>
         <h3>Users</h3>  
         <button class="btn btn-primary" style="margin-bottom: 10px" ng-click="user.getUsers()">Get Users!</button>
         <ul class="list-group" ng-if="user.users">
